@@ -1,0 +1,24 @@
+/*Estilo aplicado nos elementos da seção body*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Aplicado configurções de div*/
+#div-paragrafos {
+    background-color: reg(93, 93, 145);
+    color: aliceblue;
+}
+
+.longo {
+    background-color: pink;
+}
+
+#p1 {
+    color: brown;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+

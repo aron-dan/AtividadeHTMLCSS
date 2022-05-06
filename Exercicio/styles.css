@@ -1,0 +1,59 @@
+/*Estilo aplicado nos elementos da seção body*/
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/*Configuração da localizaçãod dos itens do cabeçalho*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid #666;
+}
+
+/*configuração do distanciamento dos itens do cabeçalho*/
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+/*COnfiguração da distancia da Margem*/
+ul li {
+    margin-right: 12px;
+    
+}
+
+/*configuração do tempo de transação ao passar o mouse por cima das letras*/
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/*Configuraçãod da cor de transição ao passasr o mouse por cima das letras*/
+ul li a:hover {
+    color: rgb(15,89,150);
+}
+h1 {
+    font-size: 32px;
+}
+
+/*configuraçãod da borda da imagem*/
+img {
+    border: 3px solid rgb(15,194,218);
+    height: 300px;
+}
+
+/*Configurações do rodapé*/
+footer {
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 20px;
+}
